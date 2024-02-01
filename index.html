@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animations for Menu Hover Effects | Demo 3 | Codrops</title>
+    <meta name="description" content="Hover animations for a menu where images appear with an effect" />
+    <meta name="keywords" content="gsap, animation, hover, menu, image, web design, javascript, template" />
+    <meta name="author" content="Trakexcel" />
+    <link rel="shortcut icon" href="https://i.postimg.cc/Y0xWbNCv/trakexcel-svg.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/mzr1ydq.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo/base.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)"))),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+  </head>
+  <body class="loading">
+    <main>
+      <nav class="menu">
+        <a class="menu__item" data-img="https://i.postimg.cc/0jWJ02fQ/1.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">KRIS JENNER</span></span>
+          <span class="menu__item-sub">Berlin</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/L6W1q55Q/2.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Lana Ferrari</span></span>
+          <span class="menu__item-sub">Hanoi</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/FsrvVxCT/1.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">UZI TRAKE</span></span>
+          <span class="menu__item-sub">London</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/dt3CtrsT/4.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Cristie Noe</span></span>
+          <span class="menu__item-sub">New York</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/jqX6jRyB/5.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Wilma Quest</span></span>
+          <span class="menu__item-sub">Los Angeles</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/bJf0ZJCf/6.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Gary Winston</span></span>
+          <span class="menu__item-sub">Belgrade</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/vHZrgCzT/7.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Nesta Freeman</span></span>
+          <span class="menu__item-sub">Paris</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/HnBbvtpT/8.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Jolanda French</span></span>
+          <span class="menu__item-sub">Toronto</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/RF17KBy6/9.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Samantha Dunne</span></span>
+          <span class="menu__item-sub">Sydney</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/RZ8LzGwF/10.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Tony Albert</span></span>
+          <span class="menu__item-sub">Rome</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/Y0p1xPBX/11.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Jacky Speed</span></span>
+          <span class="menu__item-sub">Casablanca</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/6QvL6Rhh/12.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Carlton Holle</span></span>
+          <span class="menu__item-sub">Milan</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/QdBcS5vr/13.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Kylla Maushet</span></span>
+          <span class="menu__item-sub">Zagreb</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/8CMMgG1K/14.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Fernando Castello</span></span>
+          <span class="menu__item-sub">Budapest</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/DwtLN0K4/15.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Sofie Henriette</span></span>
+          <span class="menu__item-sub">Vienna</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/4N2zzwL5/16.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Adelie Bisset</span></span>
+          <span class="menu__item-sub">Munich</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/zvXghRT6/17.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Takato Yang</span></span>
+          <span class="menu__item-sub">Lisbon</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/qRrnkFqk/18.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Hadrian Kaiser</span></span>
+          <span class="menu__item-sub">Porto</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/zBkh3kHT/19.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Mina Stofis</span></span>
+          <span class="menu__item-sub">Lisbon</span>
+        </a>
+        <a class="menu__item" data-img="https://i.postimg.cc/L6W1q55Q/2.jpg">
+          <span class="menu__item-text"><span class="menu__item-textinner">Lauren Spark</span></span>
+          <span class="menu__item-sub">Porto</span>
+        </a>
+      </nav>
+    </main>
+
+    <svg class="cursor" width="40" height="40" viewBox="0 0 40 40">
+      <circle class="cursor__inner" cx="20" cy="20" r="10" />
+    </svg>
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script type="module" src="js/demo/index.js"></script>
+  </body>
+</html>
