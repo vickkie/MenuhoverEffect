@@ -11,7 +11,7 @@ Smooth scrolling
 Initialization
 
 ## live test
-![Live Test](https://github.com/vickkie.github.io/MenuhoverEffect/)
+https://github.com/vickkie.github.io/MenuhoverEffect/
 
 
 
