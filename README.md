@@ -25,9 +25,16 @@ Install dependencies:
 -gsap
 -lenis
 
-- use
-  git clone https://github.com/vickkie/MenuhoverEffect.git
+## Usage
 
-run index.html code for development and start a local server:
+To use this code in your project, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/vickkie/MenuhoverEffect.git
+```
+
+run index.html in your development or local server:
 
 &copy;[Uzitrake](https://vickkie.github.io/)
