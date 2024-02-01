@@ -4,11 +4,12 @@ Interactive Menu with Smooth Transitions
 This repository contains a JavaScript and Html code snippet that creates an interactive menu with smooth transitions. The code utilizes various functions and classes to achieve the desired visual effects. Below is an overview of each part of the code:
 
 ### Contains
-Mapping and Interpolation
-Mouse Tracking and Cursor
-Menu Item Class
-Smooth scrolling
-Initialization
+-Mapping and Interpolation
+-Preloader
+-Mouse Tracking and Cursor
+-Menu Item Effects
+-Smooth scrolling
+-Initialization
 
 ## live test
 [Live test](https://vickkie.github.io/MenuhoverEffect/)
