@@ -30,4 +30,4 @@ Install dependencies:
 
 run index.html code for development and start a local server:
 
-&copy[Uzitrake](https://vickkie.github.io/)
+&copy;[Uzitrake](https://vickkie.github.io/)
