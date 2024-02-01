@@ -1,3 +1,5 @@
+![Animations-for-Menu-Hover-Effects](https://github.com/vickkie/MenuhoverEffect/assets/43224578/8f0db1da-49d9-4d47-a14f-7ee82a5a8637)
+
 # MenuhoverEffect
 
 Interactive Menu with Smooth Transitions
@@ -28,4 +30,4 @@ Install dependencies:
 
 run index.html code for development and start a local server:
 
-![Animations-for-Menu-Hover-Effects](https://github.com/vickkie/MenuhoverEffect/assets/43224578/8f0db1da-49d9-4d47-a14f-7ee82a5a8637)
+&copy[Uzitrake](https://vickkie.github.io/)
